@@ -33,3 +33,35 @@ header {
   border: 0;
   border-radius: 5px;
 }
+.failure-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.person-img {
+  width: 569px;
+  height: 724px;
+}
+.failure {
+  width: 416px;
+  margin-left: 50px;
+}
+.failure-h1 {
+  font-size: 40px;
+}
+ul {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0; /* Remove left padding */
+}
+li::before {
+  content: "✓"; /* Tick mark */
+  color: green; /* Color of the tick mark */
+  font-weight: bold; /* Optional: make the tick bold */
+  display: inline-block; /* Make it inline with the text */
+  width: 1em; /* Adjust width as necessary */
+  margin-right: 0.5em; /* Space between tick and text */
+}
+li {
+  line-height: 2.5;
+}
