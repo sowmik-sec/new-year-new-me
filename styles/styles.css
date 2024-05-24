@@ -33,7 +33,7 @@ header {
 .primary-color {
   color: #005fac;
 }
-.btn-contact {
+.btn-primary {
   margin-top: 30px;
   padding: 15px 20px;
   border: 0;
@@ -77,4 +77,16 @@ li {
   max-width: 1140px;
   justify-content: space-between;
   margin: 50px auto;
+}
+.positive-mindset {
+  background: url("../images/gradient1.png"), url("../images/watch.png");
+  height: 300px;
+  width: 1140px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+}
+.positive {
+  margin-left: 50px;
+  width: 460px;
 }
