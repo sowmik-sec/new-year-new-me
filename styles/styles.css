@@ -90,3 +90,31 @@ li {
   margin-left: 50px;
   width: 460px;
 }
+footer {
+  background-color: black;
+  display: flex;
+  padding: 150px 450px;
+  justify-content: space-between;
+}
+.future {
+  width: 485px;
+}
+.input-email {
+  display: block;
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-bottom: 15px;
+}
+input::placeholder {
+  color: white;
+}
+.btn-subscribe {
+  padding: 15px 20px;
+  background-color: #005fac;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
