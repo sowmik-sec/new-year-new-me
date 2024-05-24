@@ -21,6 +21,12 @@ header {
 .text-white {
   color: white;
 }
+.text-bold {
+  font-size: 40px;
+}
+.text-center {
+  text-align: center;
+}
 .header-text {
   font-size: 65px;
 }
@@ -37,7 +43,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin: 100px 0;
 }
 .person-img {
   width: 569px;
@@ -46,9 +52,6 @@ header {
 .failure {
   width: 416px;
   margin-left: 50px;
-}
-.failure-h1 {
-  font-size: 40px;
 }
 ul {
   list-style-type: none; /* Remove default bullets */
@@ -64,4 +67,14 @@ li::before {
 }
 li {
   line-height: 2.5;
+}
+.icon-img {
+  width: 93px;
+  height: 93px;
+}
+.plans {
+  display: flex;
+  max-width: 1140px;
+  justify-content: space-between;
+  margin: 50px auto;
 }
